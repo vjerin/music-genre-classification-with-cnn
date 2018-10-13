@@ -12,11 +12,11 @@ This project task is to predict the genre of music
 - Reggae
 - Disco
 
-For this project **Convolution Neural Networks (CNN)** has been appplies.Approach for classification taken is same as image classificication.Spectrograms have been treated as images which on which **image classification** has been done.
+For this project **Convolution Neural Networks (CNN)** has been appplies.Approach for classification taken is same as image classificication.Spectrograms have been treated as images which on which **image classification** has been done.Input audiis .wav format(Converted .au provided by GTZAN to .wav format)
 
 With test data 86.77% accuracy is seen.
 
-- Dataset used - GTZAN music dataset
+- Dataset used - GTZAN music dataset (download link - http://opihi.cs.uvic.ca/sound/genres.tar.gz)
 - Libraries use - Numpy,Keras,librosa,matplotlib,pydub,statistics,PIL,random
 - To know how dataset is prepaired look in dataset_preparation.ipynb
 
