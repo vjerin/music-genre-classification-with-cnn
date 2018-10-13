@@ -17,6 +17,7 @@ For this project **Convolution Neural Networks (CNN)** has been appplies.Approac
 With test data 86.77% accuracy is seen.
 
 - Dataset used - GTZAN music dataset
+- Libraries use - Numpy,Keras,librosa,matplotlib,pydub,statistics,PIL,random
 - To know how dataset is prepaired look in dataset_preparation.ipynb
 
 Any contribution to improve this project is appreciated
