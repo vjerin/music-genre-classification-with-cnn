@@ -12,7 +12,7 @@ This project task is to predict the genre of music
 - Reggae
 - Disco
 
-For this project **Convolution Neural Networks (CNN)** has been appplies.Approach for classification taken is same as image classificication.Spectrograms have been treated as images which on which **image classification** has been done.Input audiis .wav format(Converted .au provided by GTZAN to .wav format)
+For this project **Convolution Neural Networks (CNN)** has been appplies.Approach for classification taken is same as image classificication.Spectrograms have been treated as images which on which **image classification** has been done.Input audio is in .wav format(Converted .au provided by GTZAN to .wav format)
 
 With test data 86.77% accuracy is seen.
 
