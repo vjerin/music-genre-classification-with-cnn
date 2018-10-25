@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import librosa.display
 from pydub import AudioSegment
-import random
 from keras.models import Sequential
 from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
 from PIL import Image
@@ -13,7 +12,7 @@ from statistics import mode
 song = AudioSegment.from_wav("s1.wav")
 
 #to randomly select 18.125 sec of audio from music data
-end = random.randint(13593,len(song))
+end = np.random.randint(13593,len(song)+1)
 song_part_for_analysis = song[end-13593:end]
 
 #save that segment of music in wav format
